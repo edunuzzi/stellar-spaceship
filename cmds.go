@@ -65,7 +65,7 @@ func deriveKeypairsFromSeed(c *cli.Context) error {
 
 		kp, err := keypair.FromRawSeed(key.RawSeed())
 
-		fmt.Printf("KeyPair %d:\nSeed: %s\nAddress: %s\n-----------------\n", i, kp.Seed(), kp.Address())
+		fmt.Printf("KeyPair %d:\nSeed:    %s\nAddress: %s\n-----------------\n", i, kp.Seed(), kp.Address())
 	}
 
 	return nil
