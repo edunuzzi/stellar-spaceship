@@ -18,6 +18,7 @@ Alternatively, you can [download](https://github.com/edunuzzi/stellar-spaceship/
 
 ### `gen` | `g`
 
+#### Description
 Generates a new Keypair and prints its Seed and Address
 
 #### Usage
@@ -26,6 +27,7 @@ Generates a new Keypair and prints its Seed and Address
 
 ### `parse` | `p`
 
+#### Description
 Parses a Stellar Seed and print its corresponding Address
 
 #### Usage
@@ -34,6 +36,7 @@ Parses a Stellar Seed and print its corresponding Address
 
 ### `derive` | `d`
 
+#### Description
 Derives a `RANGE` of keypairs from a desired `SEED`
 
 #### Flags
