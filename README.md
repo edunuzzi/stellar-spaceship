@@ -23,6 +23,7 @@ Generates a new Keypair and prints its Seed and Address
 
 #### Usage
 - `stellar-spaceship gen` 
+or
 - `stellar-spaceship g` 
 
 ### `parse` | `p`
